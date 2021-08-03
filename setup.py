@@ -28,9 +28,9 @@ import setuptools
 
 setuptools.setup(
     name="scaffolds",
-    version="1.0.0",
+    version="1.0.1",
     url="https://github.com/francisbeaudoinh1/scaffolds",
-    download_url = "https://github.com/francisbeaudoinh1/scaffolds/archive/v_01.tar.gz",
+    download_url = "https://github.com/francisbeaudoinh1/scaffolds/archive/v_11.tar.gz",
     author="Francis Beaudoin",
     author_email="francisbeaudoin@wearehackerone.com",
 
