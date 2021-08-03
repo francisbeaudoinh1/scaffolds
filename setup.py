@@ -39,7 +39,7 @@ setuptools.setup(
     long_description_content_type='text/markdown',
     keywords=[],
     packages=setuptools.find_packages(),
-    install_requires=['urllib'],
+    install_requires=[],
     setup_requires=[],
     tests_require=[],
     classifiers=[
